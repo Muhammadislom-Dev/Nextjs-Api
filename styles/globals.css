@@ -11,8 +11,24 @@ a {
   text-decoration: none;
 }
 
-.container{
-  width: 1140px;
-  margin:0 auto;
+*{
+  margin: 0;
+  padding: 0;
 }
 
+.aside{
+  width: 260px;
+  height: 100vh;
+  background-color: dodgerblue;
+}
+
+.aside-name{
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.fa-tachometer{
+  color: red;
+}
